@@ -58,7 +58,7 @@ class WizardTest {
     }
 
     @Test
-    fun train_noteEnoughMan_nothingChanges() {
+    fun train_notEnoughMana_nothingChanges() {
         evilWizard.mana = 4 // below the mana needed to train i.e 5
         val startingPower = evilWizard.spellPower
         evilWizard.train()
